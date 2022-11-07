@@ -104,13 +104,17 @@ nav ul li a:hover::after{
     border: 2px solid #fff;
     display: flex;
     align-items: center;
+    transition: 0.7s;
+}
+.text-box a:hover{
+    transform: scale(1.1);
 }
 .text-box a span{
     font-size: 30px;
     font-weight: 800;
     line-height: 10px;
     margin-left: 5px;
-    padding-bottom: 1.5px;
+    padding-bottom: 2px;
 }
 .social-icons{
     position: absolute;
@@ -122,6 +126,11 @@ nav ul li a:hover::after{
     width: 30px;
     display: block;
     margin: 25px 5px;
+    transition: 0.7s;
+}
+.social-icons img:hover{
+    opacity: 0.5;
+    transform: scale(1.3);
 }
 @media (max-width: 855px){
     nav ul li{
